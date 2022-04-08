@@ -26,16 +26,10 @@ html, body {
 }
 
 
-.container {
-    margin: 0;
-    padding: 0;
-}
-
 .nav__list {
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
-    margin-right: 440px;
     margin-top: -40px;
 }
 
@@ -56,6 +50,15 @@ html, body {
     margin-right: 71px;
 }
 
+.nav {
+    margin-left: 700px;
+}
+
+.nav__right {
+    display: flex;
+    justify-content: space-between;
+}
+
 .info-car__title {
     font-size: 350px;
     color: white;
@@ -74,3 +77,54 @@ html, body {
     width: 152px;
 }
 
+
+.info-car__text {
+    font-size: 26px;
+    font-weight: 900;
+    color: black;
+    margin-left: 56px;
+}
+
+.info-car__previouss {
+    margin-top: -150px;
+}
+
+.info-car__link {
+    color: red;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.nav__search {
+    margin-left: 54px;
+    width: 189px;
+    position: relative;
+    margin-right: 180px;
+    margin-top: -50px;
+}
+
+.nav__search:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    left: 0;
+    background-image: url(img/search.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav__input-search {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid #FFFFFF;
+    padding-left: 44px;
+    padding-bottom: 8px;
+    
+}
